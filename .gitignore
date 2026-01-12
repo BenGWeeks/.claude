@@ -16,6 +16,7 @@ stats-cache.json
 
 # Session and runtime data
 session-env/
+ide/
 shell-snapshots/
 debug/
 file-history/
