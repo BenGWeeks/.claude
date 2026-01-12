@@ -1,0 +1,13 @@
+{
+  "env": {
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/home/benw/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "turbo-whisper-integration@turbo-whisper-marketplace": true
+  },
+  "model": "opus"
+}
