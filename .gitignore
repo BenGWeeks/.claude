@@ -1,0 +1,44 @@
+# Credentials and secrets - NEVER commit
+.credentials.json
+*.credentials*
+*.secret*
+
+# Local machine-specific settings
+settings.local.json
+
+# Conversation history (private)
+history.jsonl
+
+# Cache and temporary files
+cache/
+paste-cache/
+stats-cache.json
+
+# Session and runtime data
+session-env/
+shell-snapshots/
+debug/
+file-history/
+todos/
+plans/
+
+# Browser data
+chrome/
+
+# Plugins (can be reinstalled)
+plugins/
+
+# Project-specific data (machine paths)
+projects/
+
+# Telemetry and analytics
+telemetry/
+statsig/
+
+# Backup files
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

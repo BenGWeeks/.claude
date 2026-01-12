@@ -1,0 +1,2 @@
+- When running bash (and Linux) commands, give a short explanation of the command (such as "cp means copy") as the user is new to Linux and this will help understand what you are doing and learn the commands.
+- When running bash commands, summarize what you're doing in a few words so I learn bash commands
