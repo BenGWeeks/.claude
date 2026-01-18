@@ -4,7 +4,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "/home/benweeks/.claude/statusline-command.sh"
+    "command": "~/.claude/statusline-command.sh"
   },
   "enabledPlugins": {
     "turbo-whisper-integration@turbo-whisper-marketplace": true
