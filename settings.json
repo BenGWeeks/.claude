@@ -12,29 +12,5 @@
   "model": "opus",
   "feedbackSurveyState": {
     "lastShownTime": 1753957508481
-  },
-  "mcpServers": {
-    "nostrbook": {
-      "command": "npx",
-      "args": ["-y", "@nostrbook/mcp@latest"]
-    },
-    "business-central": {
-      "command": "npx",
-      "args": ["-y", "@knowall-ai/mcp-business-central"],
-      "env": {
-        "BC_URL_SERVER": "https://api.businesscentral.dynamics.com/v2.0/f36f6414-cb7d-4545-9cf2-7574f7b5c584/Production/api/v2.0",
-        "BC_COMPANY": "KnowAll Ltd",
-        "BC_AUTH_TYPE": "azure_cli"
-      }
-    },
-    "business-central-sandbox": {
-      "command": "npx",
-      "args": ["-y", "@knowall-ai/mcp-business-central"],
-      "env": {
-        "BC_URL_SERVER": "https://api.businesscentral.dynamics.com/v2.0/f36f6414-cb7d-4545-9cf2-7574f7b5c584/Sandbox/api/knowall/thyme/v1.0",
-        "BC_COMPANY": "CRONUS UK Ltd",
-        "BC_AUTH_TYPE": "azure_cli"
-      }
-    }
   }
 }
