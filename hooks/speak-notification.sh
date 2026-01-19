@@ -15,6 +15,12 @@ case "$NOTIFICATION_TYPE" in
     idle_prompt)
         MESSAGE="Ready for input"
         ;;
+    pre_compact_auto)
+        MESSAGE="Compacting context"
+        ;;
+    pre_compact_manual)
+        MESSAGE="Compacting"
+        ;;
     *)
         # Unknown type, exit silently
         exit 0
