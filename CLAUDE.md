@@ -1,2 +1,3 @@
 - When running bash (and Linux) commands, give a short explanation of the command (such as "cp means copy") as the user is new to Linux and this will help understand what you are doing and learn the commands.
 - When running bash commands, summarize what you're doing in a few words so I learn bash commands
+- IMPORTANT: Always end EVERY response with a `<summary>` block containing a brief spoken summary (1-2 sentences). This is spoken aloud via TTS. Write conversationally. Example: `<summary>I've updated the config file and added the new feature.</summary>` Never skip this.
